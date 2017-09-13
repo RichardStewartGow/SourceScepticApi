@@ -1,0 +1,26 @@
+{
+    "name": "testApi/test",
+    "description": "Quick api built using slim framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Gow",
+            "email": "richardstewartgow@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "phpunit/phpunit": "5.4.*",
+        "symfony/yaml":  "^3.1"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Controllers\\": "src/Controllers",
+            "Model\\": "src/Model",
+            "Helpers\\": "src/Helpers"
+        }
+    }
+}
